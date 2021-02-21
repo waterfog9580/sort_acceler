@@ -2,5 +2,3 @@
 ### OpenMP
 
 ### CUDA
-
-### FPGA
