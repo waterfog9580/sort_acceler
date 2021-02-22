@@ -26,3 +26,8 @@ int main()
   loop<<<1,N>>>();
   cudaDeviceSynchronize();
 }
+
+/*
+kernel은 해당 반복문에서 딱 한 번의 반복 작업만 하도록 설계되어야 한다.
+kernel이 다른 kernel에 대해서 알지 못하기 때문에, execution configuration이 해당 반복문에서 반복되는 작업의 수에 맞춰 선언되어야 한다.
+*/
