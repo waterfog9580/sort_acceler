@@ -1,4 +1,4 @@
-## Compare hardware acceleration of sorting algorithm on CPU, GPU and FPGA
+## Compare hardware acceleration of sorting algorithm on GPU
 ### OpenMP
 
 ### CUDA
